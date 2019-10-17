@@ -1,0 +1,36 @@
+    <!-- services -->
+    <section class="slide-wrapper py-5" id="service">
+            <div class="container py-lg-5">
+                <div class="text-center">
+                    <h3 class="tittle_head">Integer porttitor mollisar </h3>
+                    <p class="main_p mt-4 mb-4 pt-2 text-white text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. Proin ac fermentum est. Cras mi ipsum, consectetur ac ipsum </p>
+                </div>
+                <div class="services">
+                    <div class="service_w3layoutstop mt-5 pt-lg-5">
+
+                        <!-- Comienza ciclo For -->
+                        <div *ngFor="let servicio of servicios">
+                            <div class="d-flex services-box">
+                                <div class="icon">
+                                    <span class="fa fa-line-chart"></span>
+                                </div>
+                                <!-- .Icon ends here -->
+                                <div class="service-content">
+                                    <h2>{{servicio}}</h2>
+                                    <p class="serp">
+                                        Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
+                                    </p>
+                                </div>
+                                <!-- .Service-content ends here -->
+                            </div>
+                        </div>
+                        <!-- Finaliza ciclo For -->
+                        
+                            <!-- .Services-box ends here -->
+                    </div>
+                    <!-- .Container ends here -->
+                </div>
+                <!-- .Services ends here -->
+            </div>
+        </section>
+        <!-- //services -->
